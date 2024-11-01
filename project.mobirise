@@ -19,7 +19,7 @@
     "resourcesUrl": "https://r.mobirisesite.com/307229/",
     "path": "@PROJECT_PATH@",
     "name": "Pepita Macska Vintage Étterem, Kávézó & Villa - Szerencs",
-    "currentPage": "index.html",
+    "currentPage": "page14.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -89,7 +89,7 @@
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
     "siteUrl": "https://pepitamacska.hu/",
-    "uniqCompNum": 179,
+    "uniqCompNum": 182,
     "versionPublish": "5.9.18",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "cookiesAlert": {
@@ -1413,7 +1413,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "6"
+        "order": "7"
       },
       "components": [
         {
@@ -2515,7 +2515,7 @@
     "galeria.html": {
       "settings": {
         "title": "Galéria",
-        "order": "7"
+        "order": "8"
       },
       "components": [
         {
@@ -3796,7 +3796,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "13"
+        "order": "14"
       },
       "components": [
         {
@@ -4932,7 +4932,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "9"
+        "order": "10"
       },
       "components": [
         {
@@ -6035,7 +6035,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "8"
+        "order": "9"
       },
       "components": [
         {
@@ -6951,7 +6951,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "12"
+        "order": "13"
       },
       "components": [
         {
@@ -8006,7 +8006,7 @@
     "menu.html": {
       "settings": {
         "title": "Ebédmenü",
-        "order": "3",
+        "order": "4",
         "meta_descr": ""
       },
       "components": [
@@ -9025,7 +9025,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "2"
+        "order": "3"
       },
       "components": [
         {
@@ -10048,7 +10048,7 @@
     "ajanlatok.html": {
       "settings": {
         "title": "Aktuális ajánlatok",
-        "order": "4"
+        "order": "5"
       },
       "components": [
         {
@@ -11326,7 +11326,7 @@
     "esemenyek.html": {
       "settings": {
         "title": "Események",
-        "order": "5"
+        "order": "6"
       },
       "components": [
         {
@@ -12608,7 +12608,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "10"
+        "order": "11"
       },
       "components": [
         {
@@ -13711,7 +13711,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "11"
+        "order": "12"
       },
       "components": [
         {
@@ -14993,7 +14993,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "1"
+        "order": "2"
       },
       "components": [
         {
@@ -15990,6 +15990,878 @@
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer3\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/353035073-2389605687879315-9034974342138549356-n-3-2000x1857.jpeg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#232323\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">\n                        <a class=\"text-white\" href=\"#\" target=\"_blank\">About us</a>\n                    </li>\n                    \n                    \n                    \n                    \n                </ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.facebook.com/pepitamacska\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                    \n                    \n                <div class=\"soc-item\">\n                        <a href=\"https://www.instagram.com/pepitamacskavintage/\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div><div class=\"soc-item\">\n                        <a href=\"https://maps.app.goo.gl/Un4pRKzwLMZtd9ARA\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-googlemaps socicon\"></span>\n                        </a>\n                    </div><div class=\"soc-item\">\n                        <a href=\"mailto:pepitamacskavintage@gmail.com\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social mobi-mbri-letter mobi-mbri\"></span>\n                        </a>\n                    </div></div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\">\n                    © Copyright 2024 Nasihat Kft. | Minden jog fenntartva!</p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "uswJ6Npdnw",
           "_anchor": "footer3-4k",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    },
+    "page14.html": {
+      "settings": {
+        "title": "Page 14",
+        "order": "1"
+      },
+      "components": [
+        {
+          "_name": "menu02",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu2\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\t<mbr-parameters>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n\t\t<input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1\" max=\"5\" step=\"0.1\" value=\"5\" condition=\"showLogo\">\n\t\t<input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n\t\t<input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n\t\t<select title=\"Menu Items Align\" name=\"contentAlign\" condition=\"showItems\">\n\t\t\t<option value=\"1\" selected>Left</option>\n\t\t\t<option value=\"2\">Center</option>\n\t\t\t<option value=\"3\">Right</option>\n\t\t</select>\n\t\t<input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n\t\t<select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\">2</option>\n\t\t\t<option value=\"3\">3</option>\n\t\t\t<option value=\"4\" selected>4</option>\n\t\t</select>\n\t\t<input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n\t\t<input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n\t\t<header>Styles</header>\n\t\t<input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\" condition=\"none\">\n\t\t<input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n\t\t<input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n\t\t<input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"transparent\">\n\t\t<input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#ffffff\">\n\t\t<input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#ffffff\">\n\t</mbr-parameters>\n\n\t<nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n\t\t<div class=\"container\">\n\t\t\t<div class=\"navbar-brand\">\n\t\t\t\t<span mbr-if=\"showLogo\" class=\"navbar-logo\">\n\t\t\t\t\t<a href=\"index.html\">\n\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/logo-removebg-preview-274x160.png\" alt=\"Pepita Macska Vintage\" mbr-style=\"{'height': logoSize + 'rem'}\">\n\t\t\t\t\t</a>\n\t\t\t\t</span>\n\t\t\t\t<span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-primary\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Mobirise</a></span>\n\t\t\t</div>\n\t\t\t<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n\t\t\t\t<div class=\"hamburger\">\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t</div>\n\t\t\t</button>\n\t\t\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n\t\t\t\t<ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown\">\n\t\t\t\t\t\t<a class=\"nav-link link dropdown-toggle text-black\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">Étterem</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-819\"><a class=\"dropdown-item text-black\" href=\"rendeles.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Rendelés, asztalfoglalás</a><a class=\"text-black show dropdown-item text-primary\" href=\"etlap.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Étlap</a><a class=\"dropdown-item text-black\" href=\"menu.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Ebédmenü</a><a class=\"show dropdown-item text-black text-primary\" href=\"ajanlatok.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Aktuális ajánlatok</a><a class=\"show dropdown-item text-black\" href=\"rendezveny.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Rendezvényszervezés</a><a class=\"show dropdown-item text-black\" href=\"esemenyek.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Események</a></div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item dropdown\">\n\t\t\t\t\t\t<a class=\"nav-link link dropdown-toggle text-black\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\">Villa</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-376\"><a class=\"dropdown-item text-black\" href=\"szobafoglalas.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Szobafoglalás</a><a class=\"show dropdown-item text-black\" href=\"szobak.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Szobák</a><a class=\"show dropdown-item text-black text-primary\" href=\"szolgaltatasok.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Szolgáltatások</a><a class=\"show dropdown-item text-black\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Programajánló</a></div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t\t<a class=\"nav-link link text-black\" href=\"kapcsolat.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Kapcsolat</a>\n\t\t\t\t\t</li></ul>\n\t\t\t\t<div class=\"icons-menu\" mbr-if=\"showIcons\">\n\t\t\t\t\t<a class=\"iconfont-wrapper\" href=\"rendeles.html\">\n\t\t\t\t\t\t<span mbr-icon class=\"p-2 mbr-iconfont fas fa-pizza-slice\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"iconfont-wrapper\" href=\"menu.html\" mbr-if=\"iconsAmount > 1\">\n\t\t\t\t\t\t<span mbr-icon class=\"p-2 mbr-iconfont material material-restaurant\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"iconfont-wrapper\" href=\"szobafoglalas.html\" mbr-if=\"iconsAmount > 2\">\n\t\t\t\t\t\t<span mbr-icon class=\"p-2 mbr-iconfont fas fa-bed\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"iconfont-wrapper\" href=\"https://facebook.com/pepitamacska\" mbr-if=\"iconsAmount > 3\">\n\t\t\t\t\t\t<span mbr-icon class=\"p-2 mbr-iconfont fab fa-facebook\" style=\"font-size: 30px;\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-black\" href=\"projektek.html\" data-app-placeholder=\"Type Text\">Projektek</a></div>\n\t\t\t</div>\n\t\t</div>\n\t</nav>\n</section>",
+          "_styles": {
+            "z-index": "1000",
+            "width": "100%",
+            "position": "relative",
+            ".dropdown-item:before": {
+              "font-family": "Moririse2 !important",
+              "content": "\"\\e966\"",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "transform": "scale(0, 1)",
+              "transition": "all 0.25s ease-in-out"
+            },
+            "@media (max-width: 767px)": {
+              ".navbar-toggler": {
+                "transform": "scale(0.8)"
+              }
+            },
+            ".navbar-brand": {
+              "img": {
+                "max-width": "100%",
+                "max-height": "100%",
+                "border-radius": "0px !important"
+              },
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "10px 0",
+              "transition": "all 0.3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".navbar-nav": {
+              "margin": "auto",
+              "margin-left": "0",
+              "& when (@contentAlign = '2')": {
+                "margin-left": "auto"
+              },
+              "& when (@contentAlign = '3')": {
+                "margin-left": "auto",
+                "margin-right": "0"
+              },
+              ".nav-item": {
+                "padding": "0 !important",
+                "transition": ".3s all !important",
+                ".nav-link": {
+                  "padding": "16px !important",
+                  "margin": "0 !important",
+                  "border-radius": "1rem !important",
+                  "transition": ".3s all !important",
+                  "&:hover": {
+                    "background-color": "rgba(27, 31, 10, 0.06)"
+                  },
+                  "& when not (@isRoundedButtons)": {
+                    "border-radius": "4px !important"
+                  }
+                }
+              },
+              ".open": {
+                ".nav-link": {
+                  "&::after": {
+                    "transform": "rotate(180deg)"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&::before": {
+                      "content": "\"\"",
+                      "width": "100%",
+                      "height": "20px",
+                      "top": "100%",
+                      "background": "transparent",
+                      "position": "absolute"
+                    }
+                  }
+                }
+              },
+              ".dropdown-item": {
+                "padding": "12px !important",
+                "border-radius": "0.5rem !important",
+                "margin": "0 8px !important",
+                "transition": ".3s all !important",
+                "&:hover": {
+                  "background-color": "rgba(27, 31, 10, 0.06)"
+                },
+                "& when not (@isRoundedButtons)": {
+                  "border-radius": "4px !important"
+                }
+              },
+              "& when not (@showLogo), (@showBrand)": {
+                "@media (min-width: 992px)": {
+                  "padding-left": "1.5rem"
+                }
+              },
+              "& when not (@showBrand)": {
+                "@media (min-width: 992px)": {
+                  "padding-left": "1.5rem"
+                }
+              }
+            },
+            ".nav-link": {
+              "width": "fit-content",
+              "position": "relative"
+            },
+            ".navbar-logo": {
+              "padding-left": "2rem",
+              "margin": "0 !important",
+              "@media (max-width: 767px)": {
+                "padding-left": "1rem"
+              }
+            },
+            ".navbar-caption": {
+              "padding-left": "1rem",
+              "padding-right": ".5rem",
+              "& when not (@showLogo)": {
+                "@media (min-width: 767px)": {
+                  "padding-left": "2rem"
+                }
+              }
+            },
+            ".nav-dropdown": {
+              "@media (max-width: 767px)": {
+                "padding-bottom": "0.5rem"
+              }
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem",
+              "transition": ".3s all"
+            },
+            ".container": {
+              "display": "flex",
+              "height": "90px",
+              "padding": "0.5rem 0.6rem",
+              "flex-wrap": "nowrap",
+              "& when not (@collapsed)": {
+                "@media (min-width: 992px)": {},
+                "& when (@transparent)": {
+                  "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity) !important"
+                }
+              },
+              "left": "0",
+              "right": "0",
+              "-webkit-box-pack": "justify",
+              "-ms-flex-pack": "justify",
+              "justify-content": "flex-end",
+              "-webkit-box-align": "center",
+              "-webkit-align-items": "center",
+              "-ms-flex-align": "center",
+              "align-items": "center",
+              "border-radius": "100vw",
+              "margin-top": "1rem",
+              "background-color": "@menuBgColor",
+              "box-shadow": "0 30px 60px 0 rgba(27, 31, 10, 0.08)",
+              "@media (max-width: 992px)": {
+                "padding-right": "2rem"
+              },
+              "@media (max-width: 767px)": {
+                "width": "95%",
+                "height": "56px !important",
+                "padding-right": "1rem",
+                "margin-top": "0rem"
+              },
+              "& when not (@isRoundedButtons)": {
+                "border-radius": "4px !important"
+              }
+            },
+            ".iconfont-wrapper": {
+              "color": "@iconsColor !important",
+              "font-size": "1.5rem",
+              "padding-right": "0.5rem"
+            },
+            ".dropdown-menu": {
+              "flex-wrap": "wrap",
+              "flex-direction": "column",
+              "max-width": "100%",
+              "padding": "12px 4px !important",
+              "border-radius": "1.5rem",
+              "transition": ".3s all !important",
+              "min-width": "auto",
+              "background": "@menuBgColor",
+              "& when (@transparent)": {
+                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity) !important"
+              },
+              "& when not (@isRoundedButtons)": {
+                "border-radius": "4px !important"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-right": "0.5rem",
+                "vertical-align": "sub",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "90px",
+              "transition": "all 0.3s",
+              "border-bottom": "1px solid transparent",
+              "background": "transparent !important",
+              "&:not(.navbar-short)": {},
+              "&.opened": {
+                "transition": "all 0.3s"
+              },
+              ".dropdown-item": {
+                "padding": "0.5rem 1.8rem"
+              },
+              ".navbar-logo img": {
+                "width": "auto"
+              },
+              ".navbar-collapse": {
+                "z-index": "1",
+                "justify-content": "flex-end"
+              },
+              "&.collapsed": {
+                "justify-content": "center",
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "41%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-right": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "@media (max-width: 767px)": {
+                ".navbar-logo": {
+                  "img": {
+                    "height": "2rem !important"
+                  }
+                },
+                "min-height": "72px"
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "40%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {}
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word",
+                  "padding-right": "10px"
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "&.navbar-short": {
+                ".navbar-logo": {
+                  "img": {
+                    "height": "2rem"
+                  }
+                }
+              },
+              "padding": "0 !important",
+              "border": "none !important",
+              "box-shadow": "none !important",
+              "border-radius": "0 !important"
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "105%",
+                  "transform": "none",
+                  "top": "-12px"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "flex"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center",
+              "min-width": "140px",
+              "@media (max-width: 992px)": {
+                "text-align": "left"
+              }
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all 0.2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all 0.2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all 0.2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              },
+              "&:nth-child(2)": {
+                "transform": "rotate(45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(3)": {
+                "transform": "rotate(-45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": "0 1rem"
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            ".icons-menu": {
+              "flex-wrap": "nowrap",
+              "display": "flex",
+              "justify-content": "center",
+              "padding-left": "1rem",
+              "padding-right": "1rem",
+              "padding-top": "0.3rem",
+              "text-align": "center",
+              "@media (max-width: 992px)": {
+                "justify-content": "flex-start",
+                "margin-bottom": ".5rem"
+              }
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "70px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~\"+\" 2rem)",
+                "left": "-1rem"
+              }
+            },
+            ".navbar .dropdown > .dropdown-menu": {
+              "display": "none",
+              "width": "max-content",
+              "max-width": "500px !important",
+              "transform": "translateX(-50%)",
+              "top": "calc(~'100% + 20px')",
+              "left": "50%",
+              ".dropdown-item": {
+                "line-height": "1 !important"
+              },
+              ".dropdown": {
+                ".dropdown-item": {
+                  "align-items": "center",
+                  "display": "flex",
+                  "height": "max-content !important",
+                  "min-height": "max-content !important",
+                  "&::after": {
+                    "display": "inline-block",
+                    "position": "static",
+                    "margin-left": "0.5rem",
+                    "margin-top": "0",
+                    "margin-right": "0",
+                    "margin-bottom": "0",
+                    "transition": ".3s all",
+                    "transform": "rotate(-90deg)"
+                  }
+                }
+              },
+              ".dropdown.open": {
+                ".dropdown-item": {
+                  "&::after": {
+                    "transform": "rotate(0deg)"
+                  }
+                }
+              }
+            },
+            ".mbr-section-btn": {
+              "margin": "-0.6rem -0.6rem"
+            },
+            ".navbar-toggler": {
+              "margin-left": "12px",
+              "margin-right": "8px",
+              "order": "1000"
+            },
+            "& when (@collapsed)": {
+              ".navbar-brand": {
+                "margin-right": "auto"
+              },
+              ".navbar-collapse": {
+                "z-index": "-1 !important",
+                "position": "absolute",
+                "top": "110%",
+                "left": "0",
+                "width": "100%",
+                "padding": "1rem",
+                "border-radius": "1.5rem",
+                "background": "@menuBgColor",
+                "& when (@transparent)": {
+                  "border-color": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity) !important",
+                  "opacity": "1",
+                  "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity) !important"
+                },
+                "backdrop-filter": "blur(8px)",
+                "@media (max-width: 575px)": {
+                  "padding": "1rem"
+                },
+                "& when not (@isRoundedButtons)": {
+                  "border-radius": "4px !important"
+                }
+              },
+              ".navbar-nav": {
+                ".nav-item": {
+                  ".nav-link": {
+                    "&::after": {
+                      "margin-left": "10px"
+                    }
+                  }
+                },
+                ".dropdown-item": {
+                  "&:hover": {
+                    "background-color": "rgba(27, 31, 10, 0.06)"
+                  }
+                }
+              },
+              ".navbar .dropdown > .dropdown-menu": {
+                "display": "none",
+                "max-width": "100% !important",
+                "transform": "translateX(0)",
+                "top": "10px",
+                "left": "0",
+                "padding": "8px !important",
+                "border-radius": "0.5rem",
+                "background-color": "rgba(27, 31, 10, 0.04) !important",
+                ".dropdown-item": {
+                  "padding": "8px !important",
+                  "line-height": "1 !important",
+                  "margin-bottom": "4px !important"
+                },
+                ".dropdown": {
+                  ".dropdown-item": {
+                    "align-items": "center",
+                    "display": "flex",
+                    "height": "max-content !important",
+                    "min-height": "max-content !important",
+                    "&::after": {
+                      "display": "inline-block",
+                      "position": "static",
+                      "margin-left": "0.5rem",
+                      "margin-top": "0",
+                      "margin-right": "0",
+                      "margin-bottom": "0",
+                      "transition": ".3s all",
+                      "transform": "rotate(0deg)"
+                    }
+                  }
+                },
+                ".dropdown.open": {
+                  ".dropdown-item": {
+                    "&::after": {
+                      "transform": "rotate(180deg)"
+                    }
+                  }
+                },
+                ".dropdown-submenu": {
+                  "position": "static",
+                  "width": "100%",
+                  "max-width": "100% !important",
+                  "transform": "translateX(0) !important",
+                  "top": "0",
+                  "left": "0",
+                  "padding": "8px !important",
+                  "border-radius": "0.5rem",
+                  "background-color": "rgba(27, 31, 10, 0.04) !important"
+                }
+              },
+              ".navbar .dropdown.open > .dropdown-menu": {
+                "display": "flex",
+                "flex-direction": "column",
+                "align-items": "flex-start"
+              },
+              ".navbar .dropdown > .dropdown-submenu.show": {
+                "display": "flex",
+                "flex-direction": "column",
+                "align-items": "flex-start"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".navbar-brand": {
+                "margin-right": "auto"
+              },
+              ".navbar-collapse": {
+                "z-index": "-1 !important",
+                "position": "absolute",
+                "top": "110%",
+                "left": "0",
+                "width": "100%",
+                "padding": "1rem",
+                "border-radius": "1.5rem",
+                "background": "@menuBgColor",
+                "& when (@transparent)": {
+                  "opacity": "1",
+                  "border-color": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity) !important",
+                  "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity) !important"
+                },
+                "backdrop-filter": "blur(8px)",
+                "& when not (@isRoundedButtons)": {
+                  "border-radius": "4px !important"
+                }
+              },
+              ".navbar-nav": {
+                ".nav-item": {
+                  ".nav-link": {
+                    "&::after": {
+                      "margin-left": "10px"
+                    }
+                  }
+                },
+                ".dropdown-item": {
+                  "&:hover": {
+                    "background-color": "rgba(27, 31, 10, 0.06)"
+                  }
+                }
+              },
+              ".navbar .dropdown > .dropdown-menu": {
+                "max-width": "100% !important",
+                "transform": "translateX(0)",
+                "top": "10px",
+                "left": "0",
+                "padding": "8px !important",
+                "border-radius": "1rem",
+                "background-color": "rgba(27, 31, 10, 0.04) !important",
+                ".dropdown-item": {
+                  "padding": "8px !important",
+                  "line-height": "1 !important",
+                  "margin-bottom": "4px !important"
+                },
+                ".dropdown": {
+                  ".dropdown-item": {
+                    "align-items": "center",
+                    "display": "flex",
+                    "height": "max-content !important",
+                    "min-height": "max-content !important",
+                    "&::after": {
+                      "display": "inline-block",
+                      "position": "static",
+                      "margin-left": "0.5rem",
+                      "margin-top": "0",
+                      "margin-right": "0",
+                      "margin-bottom": "0",
+                      "transition": ".3s all",
+                      "transform": "rotate(0deg)"
+                    }
+                  }
+                },
+                ".dropdown.open": {
+                  ".dropdown-item": {
+                    "&::after": {
+                      "transform": "rotate(180deg)"
+                    }
+                  }
+                },
+                ".dropdown-submenu": {
+                  "position": "static",
+                  "width": "100%",
+                  "max-width": "100% !important",
+                  "transform": "translateX(0) !important",
+                  "top": "0",
+                  "left": "0",
+                  "padding": "8px !important",
+                  "border-radius": "1rem",
+                  "background-color": "rgba(27, 31, 10, 0.04) !important"
+                }
+              },
+              ".navbar .dropdown.open > .dropdown-menu": {
+                "display": "flex !important",
+                "flex-direction": "column",
+                "align-items": "flex-start"
+              }
+            },
+            ".navbar-collapse": {
+              "@media (max-width: 575px)": {
+                "padding": "1rem"
+              }
+            }
+          },
+          "_cid": "urnxf9yUJo",
+          "_anchor": "menu02-4z",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": "witsec-code-editor/components",
+          "_isSecondary": true,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "img": {
+              "width": "auto"
+            }
+          },
+          "_name": "witsec-html-block",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"mbr-section mbr-section--no-padding\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n<mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n    <input type=\"image\" title=\"Background Image\" value=\"../_images/background.jpg\" parallax>\n    <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected>\n    <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n</mbr-parameters>\n\n<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n</div>\n\n<!-- Place your own code below -->\n<link href=\"https://rendeles.pepitamacska.hu/core/framework/libs/pj/css/pj.bootstrap.min.css\" type=\"text/css\" rel=\"stylesheet\" />\n<link href=\"https://rendeles.pepitamacska.hu/index.php?controller=pjFrontEnd&action=pjActionLoadCss\" type=\"text/css\" rel=\"stylesheet\" />\n[JS_CODE_0]\n<!-- Place your own code above -->\n\n</section>",
+          "_cid": "usTvslTQi7",
+          "_anchor": "witsec-html-block-51",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script type=\"text/javascript\" src=\"https://rendeles.pepitamacska.hu/index.php?controller=pjFrontEnd&action=pjActionLoad&locale=2\"></script>"
+          ],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".row-links": {
+              "width": "100%",
+              "justify-content": "center"
+            },
+            ".social-row": {
+              "width": "100%",
+              "justify-content": "center"
+            },
+            ".media-container-row": {
+              "flex-direction": "column",
+              "justify-content": "center",
+              "align-items": "center",
+              ".foot-menu": {
+                "list-style": "none",
+                "display": "flex",
+                "justify-content": "center",
+                "flex-wrap": "wrap",
+                "padding": "0",
+                "margin-bottom": "0",
+                "li": {
+                  "padding": "0 1rem 1rem 1rem",
+                  "p": {
+                    "margin": "0"
+                  }
+                }
+              },
+              ".social-list": {
+                "width": "auto",
+                "padding-left": "0",
+                "margin-bottom": "0",
+                "list-style": "none",
+                "display": "flex",
+                "flex-wrap": "wrap",
+                "justify-content": "flex-end",
+                ".mbr-iconfont-social": {
+                  "font-size": "1.5rem",
+                  "color": "#ffffff"
+                },
+                ".soc-item": {
+                  "margin": "0 .5rem"
+                },
+                "a": {
+                  "margin": "0",
+                  "opacity": ".5",
+                  "transition": ".2s linear",
+                  "&:hover": {
+                    "opacity": "1"
+                  }
+                },
+                "@media (max-width: 767px)": {
+                  "-webkit-justify-content": "center",
+                  "justify-content": "center"
+                }
+              },
+              ".row-copirayt": {
+                "word-break": "break-word",
+                "width": "100%",
+                "p": {
+                  "width": "100%"
+                }
+              }
+            }
+          },
+          "_name": "footer3",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer3\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/353035073-2389605687879315-9034974342138549356-n-3-2000x1857.jpeg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#232323\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">\n                        <a class=\"text-white\" href=\"#\" target=\"_blank\">About us</a>\n                    </li>\n                    \n                    \n                    \n                    \n                </ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.facebook.com/pepitamacska\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                    \n                    \n                <div class=\"soc-item\">\n                        <a href=\"https://www.instagram.com/pepitamacskavintage/\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div><div class=\"soc-item\">\n                        <a href=\"https://maps.app.goo.gl/Un4pRKzwLMZtd9ARA\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-googlemaps socicon\"></span>\n                        </a>\n                    </div><div class=\"soc-item\">\n                        <a href=\"mailto:pepitamacskavintage@gmail.com\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social mobi-mbri-letter mobi-mbri\"></span>\n                        </a>\n                    </div></div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\">\n                    © Copyright 2024 Nasihat Kft. | Minden jog fenntartva!</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tRwzB2tAmv",
+          "_anchor": "footer3-50",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
